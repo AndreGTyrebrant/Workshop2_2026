@@ -34,6 +34,7 @@ public class CustomizablePlatformerMovement : MonoBehaviour
     private bool jumpReleased;
     private bool wasGrounded;
     private bool isGrounded;
+    public AudioSource JumpSound;
 
     [Header("Graphics")]
     [SerializeField] private SpriteRenderer spriteRenderer;
@@ -72,6 +73,7 @@ public class CustomizablePlatformerMovement : MonoBehaviour
             else
             {
                 // Has jumped. Play jump sound and/or trigger jump animation etc
+                JumpSound.Play();
             }
         }
         // Check if character gained contact with ground this frame
