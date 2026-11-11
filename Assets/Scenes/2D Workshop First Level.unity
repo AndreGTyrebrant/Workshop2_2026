@@ -1413,8 +1413,11 @@ MonoBehaviour:
   dialogue:
   - Bombus ma boi
   - Yous a reeeel boad man
-  - 'Rolly polly '
-  - PUSSSYYYOOOOO
+  - Yin's gotta pick up the spinning things
+  - Capice?
+  - Capice??
+  - Capice???
+  - BOOOMMMMBBOOOOCLLAATTTT
   onStartDialogue:
     m_PersistentCalls:
       m_Calls:
