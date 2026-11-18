@@ -23,7 +23,7 @@ public class WinConManager : MonoBehaviour
         }
         else
         {
-            SceneManager.GetComponent<SceneSwap>().SceneChange();
+            SceneManager.GetComponent<SceneSwap>().ChangeToLevel2();
             Debug.Log("Bombodilo crocodilo");
         }
     }

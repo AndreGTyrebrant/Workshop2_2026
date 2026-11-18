@@ -95,6 +95,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Open Menu",
+                    "type": "Button",
+                    "id": "0b8276d6-7a35-4dc9-a02f-53fa0914d09b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -491,6 +500,17 @@
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "Reset Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d2dba2c0-7934-4c26-849f-69c2dfc62593",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Open Menu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
